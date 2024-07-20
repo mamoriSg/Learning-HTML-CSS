@@ -1,7 +1,16 @@
-p {
-     color: green;
- }
-
-b {
+div p, #bold-text {
     color: red;
 }
+
+
+/* .text-color.some {
+    color: red;
+} */
+/* 
+#bold-text {
+    color: greenyellow;
+}
+
+#some-text.text-color {
+    color: blue;
+} */
