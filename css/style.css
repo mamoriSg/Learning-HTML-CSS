@@ -1,16 +1,63 @@
-div p, #bold-text {
+.link {
     color: red;
+    text-decoration: none;
 }
 
+.link:hover {
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+}
 
-/* .text-color.some {
-    color: red;
-} */
-/* 
-#bold-text {
+.link:active {
+    text-decoration-color: aqua;
+    color: black;
+}
+
+.link:visited {
     color: greenyellow;
 }
 
-#some-text.text-color {
+input:enabled{
+    width: 100px;
+}
+
+input:focus {
+    width: 200px;
+}
+
+input:disabled{
+    width: 250px;
+}
+
+div:not(:empty){
+    color: red;
+}
+
+p.main-text:not(:empty)::after {
+    content: '123';
+    color: red;
+    text-decoration: line-through;
+    cursor: pointer;
+}
+
+p.main-text:empty:after {
+    content: attr(title);
+    color: red;
+    text-decoration: line-through;
+    cursor: pointer;
+}
+
+p.main-text:not(:empty)::first-letter{
     color: blue;
-} */
+    font-size: 25px;
+}
+
+p.main-text:not(:empty)::first-line {
+    color: blue;
+    font-size: 25px;
+}
+
+p:last-of-type{
+    font-size: 30px;
+}
