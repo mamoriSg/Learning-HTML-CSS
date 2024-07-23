@@ -1,28 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
-
-body {
-    background: grey;
-    color: wheat;
+* {
+    padding: 0;
+    margin: 0;
 }
 
-p.main-text {
-    color: whitesmoke;
-    text-align: justify;
-    font-size: 20px;
-    font-style: italic;
-    font-weight: bold;
-    text-transform: lowercase;
-    line-height: 50px;
-    word-spacing: 15px;
-    letter-spacing: 2px;
-    font-family: 'Lilita One';
+body{
+    background-color: grey;
 }
 
-p.main-text > b {
-    font-style: normal;
-    font-weight: lighter;
-    text-decoration: underline;
-    text-decoration-color: red;
-    color: red;
-    cursor: pointer;
+#block,
+.block { 
+    background: rgb(164, 49, 49);
+    color: #fff;
+    width: 100px;
+    height: 200px;
+    border: 5px dashed #222;
+    border-left: 0;
+    border-right: 10px dotted rgb(97, 51, 51);
+    border-radius: 100px;
+    border-bottom-right-radius: 0;
+    opacity: 0.8;
+    margin: 20px 50px 100px 150px;
+    margin-left: 5px;
+    padding: 10px 20px;
 }
