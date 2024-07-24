@@ -1,25 +1,66 @@
 * {
-    padding: 0;
     margin: 0;
+    padding: 0;
 }
 
-body{
-    background-color: grey;
+body {
+    background: grey;
+    height: 2000px;
 }
 
-#block,
-.block { 
-    background: rgb(164, 49, 49);
-    color: #fff;
-    width: 100px;
-    height: 200px;
-    border: 5px dashed #222;
-    border-left: 0;
-    border-right: 10px dotted rgb(97, 51, 51);
-    border-radius: 100px;
-    border-bottom-right-radius: 0;
-    opacity: 0.8;
-    margin: 20px 50px 100px 150px;
-    margin-left: 5px;
-    padding: 10px 20px;
+header, footer{
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    border-bottom: 4px solid grey;
+    background: rgb(87, 34, 34);
+    color: white;
+    line-height: 70px;
+    float: left;
+}
+
+header{
+    border-bottom: 4px solid yellow;
+    margin-bottom: 50px;
+}
+
+main {
+    width: 40%;
+    margin-left: 10%;
+    background: white;
+    padding: 20px 2.5%;
+    float: left;
+}
+
+aside{
+    width: 20%;
+    padding: 20px 2.5%;
+    background: white;
+    /* border: 1px solid silver; */
+    float: left;
+    margin-left: 10%;
+    position: relative;
+}
+
+footer{
+    border-top: 4px solid yellow;
+    margin-top: 50px;
+}
+
+#add-to-cart{
+    background: red;
+    color: white;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    position: fixed;
+    top: 100px;
+    left: 70px;
+    cursor: pointer;
+}
+
+#add-to-cart:hover{
+    background: rgb(88, 26, 26);
 }
